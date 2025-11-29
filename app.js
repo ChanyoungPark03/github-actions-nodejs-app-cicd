@@ -11,7 +11,12 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, hostname, () => {
+<<<<<<< HEAD
   console.log(`Node JS Server is  running at http://${hostname}:${port}/`);
 });
+=======
+  console.log(`Node JS Server is  runing at http://${hostname}:${port}/`);
+});n
+>>>>>>> a686342 (update app.js file)
 
 module.exports = server;
